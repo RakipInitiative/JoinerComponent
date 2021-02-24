@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="repository_location_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="repository_location" type="xstring" value="https://knime.bfr.berlin/backend/"/>
+<config key="max_selection_number_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="max_selection_number" type="xint" value="2"/>
+</config>
+<config key="variables">
+<entry key="version" type="xstring" value="V_2019_09_13"/>
+<config key="tree">
+<config key="repository_location">
+<entry key="used_variable" type="xstring" value="Remote-FSK-Repository"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+<config key="max_selection_number">
+<entry key="used_variable" type="xstring" value="Max-Selection-Number"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="de.bund.bfr.knime.fsklab.v1_9.fskdbview.FSKDBViewNodeFactory"/>
+<entry key="node-name" type="xstring" value="FSK DB View"/>
+<entry key="node-bundle-name" type="xstring" value="BfR FSK-Lab extension nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="de.bund.bfr.knime.fsklab.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="German Federal Institute for Risk Assessment (BfR)"/>
+<entry key="node-bundle-version" type="xstring" value="1.0.0.qualifier"/>
+<entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-version" type="xstring" value="0.0.0"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="FSK DB View"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
